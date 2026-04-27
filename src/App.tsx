@@ -152,7 +152,7 @@ const DetailsPage = ({ onNext }: { onNext: () => void }) => {
                 <Clock size={20} />
               </div>
               <div className="text-left md:text-center">
-                <p className="font-bold text-base md:text-lg text-[#DB7093]">14:00</p>
+                <p className="font-bold text-base md:text-lg text-[#DB7093]">10:00</p>
                 <p className="text-[9px] md:text-[10px] text-pink-400 uppercase tracking-wider font-bold">Thứ Hai, 11/05/2026</p>
               </div>
             </div>
