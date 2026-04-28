@@ -85,7 +85,7 @@ const LandingPage = ({ onNext }: { onNext: () => void }) => {
         transition={{ delay: 0.4, duration: 0.8 }}
         className="text-white/90 max-w-xs md:max-w-md mt-10 mb-12 text-lg italic leading-relaxed z-10 font-medium"
       >
-        "Hành trình 4 năm rực rỡ sắp khép lại, bạn có tò mò về điểm dừng chân cuối cùng của mình không?"
+        "Breaking news: Sau 4 năm làm cổ đông UEL, Thảo Hương đã hoàn thành xong nhiệm vụ hệ thống và chuẩn bị tốt nghiệp. Bạn có muốn đến xem tin này có real hong?"
       </motion.p>
 
       <motion.button
@@ -141,9 +141,7 @@ const DetailsPage = ({ onNext }: { onNext: () => void }) => {
           <div className="absolute inset-0 opacity-[0.05] pointer-events-none bg-[radial-gradient(#FF69B4_1.5px,transparent_1.5px)] [background-size:24px_24px]" />
           
           <p className="text-gray-600 mb-6 md:mb-12 leading-[1.6] text-sm md:text-xl relative z-10 font-medium tracking-normal md:tracking-wide">
-            Thế là hành trình sinh viên của mình đã chính thức về đích rồi! 
-            Ngày trọng đại này sẽ thật thiếu sót nếu không có sự hiện diện của những người bạn tuyệt vời. 
-            Hãy đến chung vui và lưu giữ những khoảnh khắc đáng nhớ này cùng mình nhé!
+            Mong là trong giây phút quý giá này, Hương sẽ được ở cạnh những người bạn đã cùng mình trải qua nhiều chuyện buồn vui… từ những ngày còn bỡ ngỡ đến khi mọi thứ dần trở nên thân quen. Có lẽ điều đẹp nhất không chỉ là điểm kết thúc, mà là được nhìn thấy những gương mặt quen thuộc vẫn ở đó, cùng nhau khép lại một chặng đường thanh xuân thật trọn vẹn!
           </p>
 
           <div className="grid grid-cols-1 gap-3 md:grid-cols-3 md:gap-6 relative z-10">
@@ -342,10 +340,6 @@ const ClosingPage = () => {
           <div className="absolute inset-0 bg-[#FF69B4] blur-3xl opacity-30 animate-pulse" />
         </div>
         
-        <h3 className="text-xl md:text-3xl font-serif font-bold text-[#DB7093] mb-6 leading-[1.3] tracking-tight px-2">
-          Sự hiện diện của bạn là món quà tuyệt vời nhất trong ngày vui của mình!
-        </h3>
-
         {!isSubmitted ? (
           <motion.form 
             initial={{ opacity: 0, y: 20 }}
