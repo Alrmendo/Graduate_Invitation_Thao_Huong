@@ -140,8 +140,8 @@ const DetailsPage = ({ onNext }: { onNext: () => void }) => {
           {/* Subtle pattern background */}
           <div className="absolute inset-0 opacity-[0.05] pointer-events-none bg-[radial-gradient(#FF69B4_1.5px,transparent_1.5px)] [background-size:24px_24px]" />
           
-          <p className="text-gray-600 mb-6 md:mb-12 leading-[1.6] text-sm md:text-xl relative z-10 font-medium tracking-normal md:tracking-wide">
-            Mong là trong giây phút quý giá này, Hương sẽ được ở cạnh những người bạn đã cùng mình trải qua nhiều chuyện buồn vui… từ những ngày còn bỡ ngỡ đến khi mọi thứ dần trở nên thân quen. Có lẽ điều đẹp nhất không chỉ là điểm kết thúc, mà là được nhìn thấy những gương mặt quen thuộc vẫn ở đó, cùng nhau khép lại một chặng đường thanh xuân thật trọn vẹn!
+          <p className="text-gray-600 mb-6 md:mb-12 leading-[1.6] text-sm md:text-xl relative z-10 font-medium tracking-normal md:tracking-wide text-justify">
+            Mong là trong giây phút quý giá này, Hương sẽ được ở cạnh những người bạn đã cùng mình trải qua nhiều chuyện buồn vui…từ những ngày còn bỡ ngỡ đến khi mọi thứ dần trở nên thân quen. Có lẽ điều đẹp nhất không chỉ là điểm kết thúc, mà là được nhìn thấy những gương mặt quen thuộc vẫn ở đó, cùng nhau khép lại một chặng đường thanh xuân thật trọn vẹn!
           </p>
 
           <div className="grid grid-cols-1 gap-3 md:grid-cols-3 md:gap-6 relative z-10">
